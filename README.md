@@ -15,8 +15,8 @@ This project leverages the capabilities of Node.js along with PostgreSQL databas
 <h2>Getting Started</h2>
 
   ```bash
-      git clone https://github.com/sentugce/nodeapp.git
-      cd nodeapp
+  git clone https://github.com/sentugce/nodeapp.git
+  cd nodeapp
   ```
 
 2-Please note: This project requires PostgreSQL database access. \
@@ -24,17 +24,17 @@ This project leverages the capabilities of Node.js along with PostgreSQL databas
 
 3-The DB_CONNECTION_STRING example in the .env file represents the connection string required to connect to a real PostgreSQL database. The parts 'your_username,' 'your_password,' and 'your_database' in this connection string should be replaced with the actual database username, password, and database name.
 ```bash
-  DB_CONNECTION_STRING=postgresql://your_username:your_password@localhost:5432/your_database
+DB_CONNECTION_STRING=postgresql://your_username:your_password@localhost:5432/your_database
 ```
 
 4-Then, install the project dependencies:
 ```bash
-  npm install
+npm install
 ```
 
 5-Run the development server:
   ```bash 
-    npm start
+npm start
 ```
   
 Open http://localhost:5000 with your browser to see the result.
